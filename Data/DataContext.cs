@@ -1117,6 +1117,8 @@ namespace MyApi.Data
             user.Latitude = -23.5200241;
             user.Longitude = -46.596498;
 
+            modelBuilder.Entity<Usuario>().HasData(user);
+
             modelBuilder.Entity<Usuario>()
                 .Property(u => u.Perfil)
                 .HasDefaultValue("Usuario");
