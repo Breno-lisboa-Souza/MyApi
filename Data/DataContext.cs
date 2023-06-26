@@ -31,7 +31,7 @@ namespace MyApi.Data
                     Nome = "Far Cry 6",
                     Descricao = "Far Cry 6 é um jogo de tiro em primeira pessoa de mundo aberto desenvolvido pela Ubisoft Toronto. Ambientado na ilha fictícia de Yara, os jogadores assumem o papel de Dani Rojas, um guerrilheiro lutando contra o regime opressivo do ditador Anton Castillo. Com um vasto mundo para explorar, combates intensos e uma narrativa envolvente, Far Cry 6 oferece uma experiência cheia de ação e aventura.",
                     Genero = "Tiro, Ação",
-                    DataL = Convert.ToDateTime("07/10/2021"),
+                    //DataL = Convert.ToDateTime("07/10/2021"),
                     Desenvolvedor = "Ubisoft Toronto"
                 },
 
@@ -41,7 +41,7 @@ namespace MyApi.Data
                     Nome = "Bloons TD6",
                     Descricao = "Bloons TD6 é um jogo de estratégia em que os jogadores devem defender seu território contra ondas de balões invasores. O jogo apresenta torres de defesa com habilidades únicas, diversos mapas e modos de jogo, oferecendo uma experiência desafiadora e divertida.",
                     Genero = "Estratégia",
-                    DataL = Convert.ToDateTime("14/06/2018"),
+                    //DataL = Convert.ToDateTime("14/06/2018"),
                     Desenvolvedor = "Ninja Kiwi",
                 },
 
@@ -51,7 +51,7 @@ namespace MyApi.Data
                     Nome = "Red Dead Redemption",
                     Descricao = "Red Dead Redemption é um jogo de ação e aventura em mundo aberto ambientado no Velho Oeste. Os jogadores assumem o papel de um pistoleiro chamado John Marston, que deve caçar criminosos e enfrentar desafios em uma história épica. O jogo oferece um vasto mundo para explorar, com muitas missões e atividades para realizar.",
                     Genero = "Ação, Aventura",
-                    DataL = Convert.ToDateTime("18/05/2010"),
+                    //DataL = Convert.ToDateTime("18/05/2010"),
                     Desenvolvedor = "Rockstar San Diego",
                 },
 
@@ -62,7 +62,7 @@ namespace MyApi.Data
                     Nome = "Valorant",
                     Descricao = "Valorant é um jogo de tiro tático em primeira pessoa desenvolvido pela Riot Games. No jogo, duas equipes competem em partidas de ataque e defesa, utilizando personagens com habilidades únicas. Com combates estratégicos e trabalho em equipe, Valorant oferece uma experiência de jogo emocionante e competitiva.",
                     Genero = "Tiro em primeira pessoa",
-                    DataL = Convert.ToDateTime("02/06/2020"),
+                    //DataL = Convert.ToDateTime("02/06/2020"),
                     Desenvolvedor = "Riot Games"
                 },
 
@@ -72,11 +72,11 @@ namespace MyApi.Data
                     Nome = "Counter-Strike: Global Offensive",
                     Descricao = "Counter-Strike: Global Offensive é um jogo de tiro em primeira pessoa competitivo. Os jogadores se juntam a equipes terroristas ou antiterroristas e participam de partidas intensas em diversos modos de jogo. Com uma jogabilidade estratégica e habilidades individuais em teste, CS:GO continua sendo um dos jogos mais populares do gênero.",
                     Genero = "Tiro em primeira pessoa",
-                    DataL = Convert.ToDateTime("21/08/2012"),
+                    //DataL = Convert.ToDateTime("21/08/2012"),
                     Desenvolvedor = "Valve"
-                },
+                }
 
-                new Jogo()
+                /*new Jogo()
                 {
                     Id = 6,
                     Nome = "League of Legends",
@@ -1093,7 +1093,7 @@ namespace MyApi.Data
                     Genero = "Ação, Aventura",
                     DataL = Convert.ToDateTime("05/10/2018"),
                     Desenvolvedor = "Ubisoft",
-                    }
+                    }*/
             );
 
 

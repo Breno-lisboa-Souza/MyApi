@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r3UixMF8vcq0afj57H8jbeqdZbjCuCHMMQneyKp1zjfUDG2sBhkozLglJ0gnhOM4YrOlSBJvPvw3p2s5BtORvA==",
+  "dgSpecHash": "BfTGF7iR4P06GA5nWmtxLqHSt+cA4o4U1MynOmWBvPU6rg59yXQE1qrLyT8LAXH/LPM5ZFWiVSjoHp6M07fsUw==",
   "success": true,
-  "projectFilePath": "D:\\2DS\\BrenoL\\MyApi\\MyApi\\MyApi.csproj",
+  "projectFilePath": "D:\\BRENO\\MyApi\\MyApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etechas\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
