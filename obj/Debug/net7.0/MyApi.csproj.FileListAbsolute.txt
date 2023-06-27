@@ -165,11 +165,6 @@ D:\2DS\BrenoL\MyApi\MyApi\obj\Debug\net7.0\MyApi.genruntimeconfig.cache
 D:\2DS\BrenoL\MyApi\MyApi\obj\Debug\net7.0\ref\MyApi.dll
 D:\BRENO\MyApi\bin\Debug\net7.0\appsettings.Development.json
 D:\BRENO\MyApi\bin\Debug\net7.0\appsettings.json
-D:\BRENO\MyApi\bin\Debug\net7.0\publish\appsettings.Development.json
-D:\BRENO\MyApi\bin\Debug\net7.0\publish\appsettings.json
-D:\BRENO\MyApi\bin\Debug\net7.0\publish\web.config
-D:\BRENO\MyApi\bin\Debug\net7.0\publish\MyApi.deps.json
-D:\BRENO\MyApi\bin\Debug\net7.0\publish\MyApi.runtimeconfig.json
 D:\BRENO\MyApi\bin\Debug\net7.0\MyApi.exe
 D:\BRENO\MyApi\bin\Debug\net7.0\MyApi.deps.json
 D:\BRENO\MyApi\bin\Debug\net7.0\MyApi.runtimeconfig.json
@@ -248,3 +243,8 @@ D:\BRENO\MyApi\obj\Debug\net7.0\refint\MyApi.dll
 D:\BRENO\MyApi\obj\Debug\net7.0\MyApi.pdb
 D:\BRENO\MyApi\obj\Debug\net7.0\MyApi.genruntimeconfig.cache
 D:\BRENO\MyApi\obj\Debug\net7.0\ref\MyApi.dll
+D:\BRENO\MyApi\bin\Debug\net7.0\publish\web.config
+D:\BRENO\MyApi\bin\Debug\net7.0\publish\appsettings.Development.json
+D:\BRENO\MyApi\bin\Debug\net7.0\publish\appsettings.json
+D:\BRENO\MyApi\bin\Debug\net7.0\publish\MyApi.deps.json
+D:\BRENO\MyApi\bin\Debug\net7.0\publish\MyApi.runtimeconfig.json
