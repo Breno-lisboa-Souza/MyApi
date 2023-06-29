@@ -128,5 +128,47 @@ namespace MyApi.Controllers
             return NoContent();
         }
 
+        [HttpGet("favoritos/{usuarioId}")]
+        public async Task<IActionResult> GetFavoritos(int usuarioId)
+        {
+            try
+            {
+                List<Jogo> jogosFavoritos = await _context.Jogos
+                    .Where(j => _context.Favoritos.Any(f => f.JogoId == j.Id && f.UsuarioId == usuarioId))
+                    .ToListAsync();
+
+                return Ok(jogosFavoritos);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("favoritos/{jogoId}/{usuarioId}")]
+        public async Task<IActionResult> RemoverFavorito(int jogoId, int usuarioId)
+        {
+            try
+            {
+                Favorito favorito = await _context.Favoritos
+                    .FirstOrDefaultAsync(f => f.JogoId == jogoId && f.UsuarioId == usuarioId);
+
+                if (favorito == null)
+                {
+                    return NotFound("O jogo não está na lista de favoritos do usuário.");
+                }
+
+                _context.Favoritos.Remove(favorito);
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
     }
 }
